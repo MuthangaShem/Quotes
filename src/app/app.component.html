@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4  ">
+
+          <form >
+            <div class="form-group" >
+                <label>Enter Your quote</label> <br>
+                <textarea class="form-control" rows="3" placeholder="quote..." #newQuote></textarea>
+            </div>
+
+            <div class="form-group" >
+              <label>Said By :</label><br>
+              <input class="form-control" type="text" name="author" placeholder="Who said it..." #newAuthor>
+            </div>
+
+            <div class="form-group" >
+              <label>Submitted by :</label><br>
+              <input class="form-control" type="text" name="submitter" placeholder="Your name please..." #newSubmitter>
+            </div>
+
+            <div>
+            <input type="submit" class="btn btn-primary" name="submit" value="submit quote" (click)="addQuote( newQuote, newAuthor, newSubmitter)">
+            </div>
+
+
+          </form>
+
+
+
+        </div>
+        <div class="col-md-8">
+        <app-quote *ngFor = "let quote of quotes" [quote]="quote"></app-quote>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
