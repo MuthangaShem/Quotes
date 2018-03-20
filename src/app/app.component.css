@@ -18,12 +18,29 @@ label{
 	color: white;
 }
 
+.fixed{
+	position: fixed ;
+}
+
+#quote{
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+}
+
 input, textarea{
     background: rgba(255,255,255,0.7);
 }
 
 #button{
-	
+  border:2px solid #b70038;
+  font-size: 20px;
+  overflow: hidden;
+  background-color: #b70038;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  outline:none;
+  color: white;
+  height: 50px;
 }
 
 header{
