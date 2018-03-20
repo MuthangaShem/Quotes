@@ -3,12 +3,18 @@
   <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
+  <title>Quotes</title>
   <body>
-    <div class="container">
+    <div class="container-fluid">
+      
       <div class="row">
-        <div class="col-md-4  ">
+        <div class="col-md-6  ">
+          <div >
+            <header>Quotes</header>
+            <h2 class="semiHead">Please share the funniest, most inspriring, wittiest or even down right rudest quotes and vote.</h2>
+          </div>
 
-          <form >
+          <form>
             <div class="form-group" >
                 <label>Enter Your quote</label> <br>
                 <textarea class="form-control" rows="3" placeholder="quote..." #newQuote></textarea>
@@ -25,7 +31,7 @@
             </div>
 
             <div>
-            <input type="submit" class="btn btn-primary" name="submit" value="submit quote" (click)="addQuote( newQuote, newAuthor, newSubmitter)">
+            <input id="button" type="submit" class="btn btn-primary" name="submit" value="submit quote" (click)="addQuote( newQuote, newAuthor, newSubmitter)">
             </div>
 
 
@@ -34,7 +40,7 @@
 
 
         </div>
-        <div class="col-md-8">
+        <div class="col-md-6">
         <app-quote *ngFor = "let quote of quotes" [quote]="quote"></app-quote>
         </div>
 
