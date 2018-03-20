@@ -1,9 +1,9 @@
 <!-- <div class="col-md-6">
- -->	<div class="row" style="margin-top: 30px;">
+ -->	<div class="row">
 	 		<div class="jumbotron">
 
-				<div class="col-md-3">
-					<h1>{{quote.votes}}</h1><br>
+				<div class="col-md-3" style="">
+					<h1>{{quote.votes}}</h1>
 					<h2>Points</h2>
 				</div>
 				
@@ -15,12 +15,9 @@
 					</div>
 
 
-						<ul class="col-md-8 list-inline text-center">
-							<li><a href (click)="voteUp()" class="glyphicon glyphicon-arrow-up"> upvote </a></li>
-
-							<li><a href (click)="voteDown()" class="glyphicon glyphicon-arrow-down"> downvote </a></li>
-		<!-- 					<li><a href (click)="delete()" class="glyphicon glyphicon-trash"> Delete </a></li>
-		 -->
+						<ul class="col-md-8 list-inline text-center" style="margin-top: 10px;">
+							<li><a href (click)="voteUp()" class="glyphicon glyphicon-arrow-up"> upvote </a></li><li><a href (click)="voteDown()" class="glyphicon glyphicon-arrow-down"> downvote </a></li>
+		<!-- 					<li><a href (click)="delete()" class="glyphicon glyphicon-trash"> Delete </a></li>		 -->
 						</ul>
 
 				</div>

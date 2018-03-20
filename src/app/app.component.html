@@ -3,32 +3,32 @@
   <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
-  <title>Quotes</title>
+  <title><u>Quotes</u></title>
   <body>
     <div class="container-fluid">
       
       <div class="row ">
-        <div class="col-md-6">
+        <div class="col-md-6 fixed">
           <div >
-            <header>Quotes</header>
+            <header><u>Quotes</u></header>
             <h2 class="semiHead">Please share the funniest, most inspriring, wittiest or even down right rudest quotes, then, vote.</h2>
           </div>
           <hr>
 
           <form >
             <div class="form-group" >
-                <label>Enter Your quote</label> <br>
-                <textarea id="quote" class="form-control" rows="3" placeholder="quote..." #newQuote></textarea>
+                <label>Type In Your quote</label> <br>
+                <textarea id="quote" class="form-control" rows="3" placeholder="quote..." required="" #newQuote></textarea>
             </div>
 
             <div class="form-group" >
               <label>Said By :</label><br>
-              <input class="form-control" type="text" name="author" placeholder="Who said it..." #newAuthor>
+              <input class="form-control" type="text" name="author" placeholder="Who said it..." required=""  #newAuthor>
             </div>
 
             <div class="form-group" >
               <label>Submitted by :</label><br>
-              <input class="form-control" type="text" name="submitter" placeholder="Your name please..." #newSubmitter>
+              <input class="form-control" type="text" name="submitter" placeholder="Your name please..." required #newSubmitter>
             </div>
 
             <div>
@@ -41,7 +41,7 @@
 
 
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 quotes" style="margin-top: 30px">
         <app-quote *ngFor = "let quote of quotes" [quote]="quote"></app-quote>
         </div>
 

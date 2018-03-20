@@ -14,7 +14,7 @@ export class AppComponent {
 		this.quotes = [
 		new Quote ('In the beginning was the word', 'St. Paul', 'Mwangombe', 10),
 		new Quote ('Education is the key to success', 'Tekla Lorupe', 'Shem', 8),
-		new Quote ('Hakuna mbrrrrrcha', 'Mbusi', 'odi', 4),
+		new Quote ('A morning of akwardness is much better than a night of loneliness', 'Anonymous', 'Hank Moody', 4),
 		];
 	}
 

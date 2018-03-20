@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
-
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 
 h3{
 	font-family: 'Lobster', cursive;
+	font-size:30px;
 }
 
 .jumbotron{
-    background-color: rgba(255,110,210,0.9);
-    margin: 0px;
+    margin: 10px;
+    opacity: 0.8;
+	width: 600px;
+	padding: 3px;
+}
+
+h2, h1{
+	font-family: 'Orbitron', sans-serif;
+	margin-bottom: -1px;
 }
