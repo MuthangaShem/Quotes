@@ -4,3 +4,8 @@
 h3{
 	font-family: 'Lobster', cursive;
 }
+
+.jumbotron{
+    background-color: rgba(255,110,210,0.9);
+    margin: 0px;
+}

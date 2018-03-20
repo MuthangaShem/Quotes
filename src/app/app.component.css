@@ -43,6 +43,13 @@ input, textarea{
   height: 50px;
 }
 
+form{
+    background-color: rgba(255,210,210,0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
 header{
 	color: white;
 	text-align: center;
