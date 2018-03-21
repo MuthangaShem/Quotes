@@ -12,9 +12,9 @@ body{
 	height: 100%;
 	width: 100%;
 	background-position: center;
-/*	overflow-x:none;
-	overflow-y:none;  
-*/}
+	overflow-x:hidden;
+	overflow-y:scroll;  
+}
 
 label{
 	font-size: 20px;
