@@ -42,11 +42,12 @@ input, textarea{
 }
 
 #button{
-  border:2px solid #b70038;
+  border:2px solid #a10038;
   font-size: 20px;
   overflow: hidden;
   background-color: #b70038;
   background-repeat:no-repeat;
+  box-shadow: 30px solid grey ;
   cursor:pointer;
   outline:none;
   color: white;
