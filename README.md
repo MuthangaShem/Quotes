@@ -1,6 +1,10 @@
-# AngularReddit
+# Angular Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+
+## How it works
+
+You type in a quote, the author and your name (The submiiter of the quote). When you submit, It will be displayed at the bottom of the page. You can vote for it (upvote) and downvote. The more the votes it gets, the higher it climbs to the top.
 
 ## Development server
 
