@@ -17,10 +17,6 @@ import {Quote} from './quote.model';
 
 	@Input() quote: Quote;
 
-  constructor() {
-	
-  }
-
   voteUp(): boolean {
   	this.quote.voteUp();
   	return false;
